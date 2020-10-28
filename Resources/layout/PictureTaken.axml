@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout2">
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Da li želite spremiti fotografiju za upload?"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:id="@+id/textView1" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/linearLayout1">
+        <ImageButton
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:id="@+id/yes"
+            android:src="@drawable/success"
+            android:scaleType="centerInside"
+            android:background="@android:color/transparent"
+            android:layout_weight="1" />
+        <ImageButton
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:id="@+id/no"
+            android:src="@drawable/multiply"
+            android:scaleType="centerInside"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/picture"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+</LinearLayout>

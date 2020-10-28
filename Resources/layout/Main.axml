@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="65.7dp"
+        android:layout_width="match_parent"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@color/aaa"
+        android:id="@+id/linearLayout2">
+        <ImageButton
+            android:src="@drawable/logo"
+            android:id="@+id/first"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="clip_horizontal"
+            android:layout_weight="1"
+            android:scaleType="centerInside" />
+        <ImageButton
+            android:src="@drawable/google"
+            android:id="@+id/map"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerInside"
+            android:layout_weight="1" />
+        <ImageButton
+            android:src="@drawable/cam"
+            android:id="@+id/camera"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerInside"
+            android:layout_weight="1" />
+        <ImageButton
+            android:src="@drawable/image"
+            android:id="@+id/can"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerInside"
+            android:layout_weight="1" />
+        <ImageButton
+            android:src="@drawable/question"
+            android:id="@+id/help"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerInside"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+    </LinearLayout>
+<!-- ovdje ne treba background jesi dirao ovo weight bez ovoga nikako ne mzoe  je-->
+    <FrameLayout
+        android:id="@+id/gmap"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+﻿
+<?xhml version="1.0" encoding="utf-8" ?>
+<resources>
+  <color name="green">#71D456</color>
+  <color name="button">#68c368</color>
+  <color name="gray">#404040</color>
+  <color name="lgray">#515050</color>
+  <color name="aaa">#297A4A</color>
+</resources>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="Pomoć"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:textColor="@color/green"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="38.6dp"
+                android:id="@+id/textView1"
+                android:layout_marginTop="96.0dp" />
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_height="40dp"
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/logo"
+                    android:layout_weight="1" />
+                <TextView
+                    android:layout_height="30dp"
+                    android:layout_width="wrap_content"
+                    android:text="Početna stranica"
+                    android:textColor="@color/green"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:textAlignment="viewStart" />
+            </LinearLayout>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Ovo je stranica sa dobrodoslicom u aplikaciju i ovdje imate opciju da odmah otvorite kameru"
+                android:textAlignment="center"
+                android:layout_marginBottom="20dp" />
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_height="40dp"
+                    android:layout_width="94.0dp"
+                    android:src="@drawable/google"
+                    android:layout_weight="1"
+                    android:layout_marginRight="0.0dp" />
+                <TextView
+                    android:layout_height="30dp"
+                    android:layout_width="wrap_content"
+                    android:text="Lokacija                     "
+                    android:textColor="@color/green"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:textAlignment="viewStart" />
+            </LinearLayout>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Ovdje možete vidjeti vašu trenutnu lokaciju i morate imati uključenu lokaciju za ovu opciju"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp" />
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_height="40dp"
+                    android:layout_width="176.7dp"
+                    android:src="@drawable/cam"
+                    android:layout_weight="1"
+                    android:layout_marginRight="0.0dp" />
+                <TextView
+                    android:layout_height="30dp"
+                    android:layout_width="wrap_content"
+                    android:text="Kamera                                       "
+                    android:textColor="@color/green"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:textAlignment="viewStart" />
+            </LinearLayout>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Ovdje možete otvoriti kameru i uslikati smeće na lokaciji na kojoj se nalazite"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp" />
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_height="40dp"
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/image"
+                    android:layout_weight="1" />
+                <TextView
+                    android:layout_height="30dp"
+                    android:layout_width="wrap_content"
+                    android:text="Upload                                                          "
+                    android:textColor="@color/green"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:textAlignment="viewStart" />
+            </LinearLayout>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Ovdje možete upload vaše slike koje ste uslikali ili ih obrisati"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/textView2" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
